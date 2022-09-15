@@ -29,7 +29,7 @@ const App = () => {
         <MovieListHeading heading="Movies" />
         <SearchBox searchValue={searchValue} setSearchValue={setSearchValue} />
       </div>
-      <div className="row d-flex align-itmes-center mt-4 mb-4">
+      <div className=" d-flex align-itmes-center mt-4 mb-4">
         <MovieList movies={movies} />
       </div>
     </div>
